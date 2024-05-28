@@ -17,9 +17,9 @@ const Navbar = () => {
 
 
     return (
-        <div className=' w-full bg-white shadow-lg rounded-sm py-4 px-2 flex items-center justify-around '>
+        <div className=' w-full bg-white shadow-lg rounded-sm py-4 px-2 flex items-center justify-around sticky top-0 '>
             <div>
-                <Image alt='icon' height={110} width={110} src='/assets/logo.png' />
+                <img src='/assets/logo.png' />
             </div>
             <div className=' flex items-center justify-center gap-20'>
                 {navLinks.map((link) => {
