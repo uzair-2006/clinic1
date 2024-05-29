@@ -11,9 +11,12 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body className="bg-[#D4FFFC]">
+      <body className="bg-[#F0FFFE]">
         <Headerstrip />
-        <Navbar />
+        <div className=" w-full flex items-center justify-center sticky top-0 z-50">
+
+          <Navbar />
+        </div>
         {children}
 
       </body>
