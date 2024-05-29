@@ -12,13 +12,13 @@ const Services = () => {
         <div className=' w-full h-[600px] '>
             <div className=' w-full flex items-center justify-center flex-col gap-4 pt-20'>
                 <p className=' text-[#00A0AA]  font-semibold text-xl '>Services And Treatments</p>
-                <h1 className=' text-[#081E29] font-bold text-5xl'>More than 40 specialty <br />
+                <h1 className=' text-[#081E29] font-bold text-5xl px-4 text-center bp-764:text-4xl'>More than 40 specialty <br />
                     and health care services</h1>
             </div>
-            <div className=' w-full flex items-center gap-20 justify-center mt-20'>
+            <div className=' w-full flex items-center gap-20 justify-center mt-20 flex-wrap'>
                 {services.map((service) => {
                     return (
-                        <div className=' flex  flex-col items-center justify-center gap-5' key={service.name}>
+                        <div className=' flex  flex-col items-center px-5 justify-center gap-5' key={service.name}>
                             <div className=' bg-white rounded-lg p-[60px] flex items-center justify-center shadow-xl '>
                                 <img src={service.src} alt="" />
                             </div>

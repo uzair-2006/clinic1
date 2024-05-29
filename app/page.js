@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Hero />
       <Subhero />
-      {/* <Services /> */}
+      <Services />
       {/* <Whyus /> */}
     </>
   );
