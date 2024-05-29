@@ -9,7 +9,7 @@ const Services = () => {
         { name: 'General Health', src: '/assets/icon5.png' }
     ]
     return (
-        <div className=' w-full h-[600px] '>
+        <div className=' w-full h-[600px] bp 2xl:h-fit  '>
             <div className=' w-full flex items-center justify-center flex-col gap-4 pt-20'>
                 <p className=' text-[#00A0AA]  font-semibold text-xl '>Services And Treatments</p>
                 <h1 className=' text-[#081E29] font-bold text-5xl px-4 text-center bp-764:text-4xl'>More than 40 specialty <br />
@@ -28,7 +28,7 @@ const Services = () => {
                 })}
 
             </div>
-            <div className='w-full flex items-center justify-center mt-20 pb-20'>
+            <div className='w-full flex items-center justify-center mt-20'>
                 <Button>See All Services</Button>
             </div>
 

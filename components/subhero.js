@@ -26,11 +26,14 @@ const Subhero = () => {
                 <div className=' w-full flex items-center justify-center gap-20 px-10 flex-wrap  '>
                     {data.map((data) => {
                         return (
-                            <div className=' relative  xl:mb-20 ' key={data.name}>
-                                <img src={data.src} alt="" />
-                                <div className=' absolute bottom-[-50px] left-[45px] bg-white rounded-md shadow-2xl flex flex-col items-center justify-center gap-2  px-[60px] py-5'>
-                                    <p className=' text-[#00A0AA]  font-semibold  text-md'>For Your Child Health</p>
-                                    <h1 className=' font-bold text-2xl'>{data.name}</h1>
+                            <div className='   xl:mb-20 bp-660:w-full  bp-660:flex bp-660:items-center bp-660:justify-center bp-660:flex-col ' key={data.name}>
+                                <div className='relative w-fit'>
+
+                                    <img src={data.src} alt="" />
+                                    <div className=' absolute bottom-[-50px] left-[45px]  bg-white rounded-md bp-660:left-10 shadow-2xl flex flex-col items-center justify-center gap-2  px-[60px] py-5'>
+                                        <p className=' text-[#00A0AA]  font-semibold  text-md'>For Your Child Health</p>
+                                        <h1 className=' font-bold text-2xl'>{data.name}</h1>
+                                    </div>
                                 </div>
                             </div>
                         )
