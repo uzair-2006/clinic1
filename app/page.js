@@ -7,8 +7,8 @@ export default function Home() {
     <>
       <Hero />
       <Subhero />
-      <Services />
-      <Whyus />
+      {/* <Services /> */}
+      {/* <Whyus /> */}
     </>
   );
 }

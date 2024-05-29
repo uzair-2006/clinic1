@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 const Headerstrip = () => {
     return (
-        <div className=' w-full   p-3 flex items-center justify-around py-4 flex-wrap'>
+        <div className=' w-full   p-3 flex items-center justify-around py-4 flex-wrap bp-660:hidden'>
             <div className=' flex items-center justify-center gap-12 flex-wrap'>
                 <div className=' flex items-center justify-start gap-2'>
                     <Image alt='icon' height={17} width={17} src='/assets/locationIcon.png' />

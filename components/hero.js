@@ -1,24 +1,24 @@
 import React from 'react';
 import { Button } from './ui/button';
 import Herobox from './herobox';
-import Heroball from './heroball';
 const Hero = () => {
     return (
-        <div className='w-full h-[87vh] flex items-end justify-evenly  '>
-            <div className=' flex flex-col justify-center items-start pb-[250px] w-[500px]  '>
+        <div className='w-full h-[87vh] flex items-end justify-evenly  bp-968:flex-col bp-968:items-center bp-968:mt-[170px] bp-968:h-fit  '>
+            <div className=' flex flex-col justify-center items-start pb-[250px] w-[500px] bp-968:pb-[100px] bp-552:px-3 bp-552:w-full bp-552:pl-8  '>
                 <p className='  font-bold  text-lg text-[#00A0AA] mb-4'>Welcome To Medpro Health Care</p>
-                <h1 className=' text-[#081E29] text-6xl font-bold leading-[67px] mb-[60px]'>The Hospital That Cares For Life And Humanity</h1>
+                <h1 className=' text-[#081E29] text-6xl font-bold leading-[67px] mb-[60px] bp-1298:text-4xl bp-1298:mb-[30px] bp-968:text-6xl bp-552:text-4xl '>The Hospital That Cares For Life And Humanity</h1>
                 <div>
                     <Button>Discover More</Button>
 
                 </div>
-      
+
 
             </div>
 
-            <div className=' z-auto'>
-                <img src='/assets/doctor.png' className=' z-10 relative pl-5' />
-                <Heroball className='z-0 ' />
+            <div className=' z-auto relative bp-552:w-full bp-552:flex bp-552:items-center bp-552:justify-center'>
+                <img src='/assets/background.png' className=' z-10 relative pl-5 bp-1298:h-[600px] bp-1298:pl-0' />
+                <Herobox />
+
             </div>
 
         </div>

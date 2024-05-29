@@ -16,7 +16,7 @@ const Whyus = () => {
             <div className=' flex flex-col items-start  justify-start gap-8'>
                 <h1 className=' text-white font-bold text-5xl'>Dedicated to provide <br />
                     best the treatment.</h1>
-                <p className=' text-lg font-normal text-white'>They live in Bookmarksgrove right at the coast of the <br />
+                <p className=' text-lg font-normal text-white '>They live in Bookmarksgrove right at the coast of the <br />
                     Semantics, a large language ocean. A small river named <br />
                     Duden flows by their place and supplies it.</p>
                 <Button variant="custom"  >Take an Appointment</Button>

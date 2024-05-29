@@ -9,6 +9,18 @@ module.exports = {
   ],
   prefix: "",
   theme: {
+    screens: {
+      '2xl': { 'max': '1535px' },
+      'xl': { 'max': '1326px' },
+      'lg': { 'max': '1148px' },
+      'md': { 'max': '767px' },
+      'sm': { 'max': '639px' },
+      'bp-1298': { 'max': '1298px' },
+      'bp-968': { 'max': '968px' },
+      'bp-660': { 'max': '660px' },
+      'bp-552': { 'max': '552px' },
+      'bp-764': { 'max': '764px' },
+    },
     container: {
       center: true,
       padding: "2rem",

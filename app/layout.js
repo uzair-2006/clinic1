@@ -13,10 +13,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="bg-[#F0FFFE]">
         <Headerstrip />
-        <div className=" w-full flex items-center justify-center sticky top-0 z-50">
 
-          <Navbar />
-        </div>
+
+        <Navbar />
+
         {children}
 
       </body>
