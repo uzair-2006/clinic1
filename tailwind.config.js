@@ -22,6 +22,7 @@ module.exports = {
       'bp-764': { 'max': '764px' },
       'bp-898': { 'max': '898px' },
       'bp-1024': { 'max': '1024px' },
+      'bp-1019': { 'max': '1019px' },
     },
     container: {
       center: true,

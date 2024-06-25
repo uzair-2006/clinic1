@@ -1,14 +1,15 @@
 import React from 'react';
 import { Button } from './ui/button';
 import Herobox from './herobox';
-const Hero = () => {
+const Hero = ({ buttonText, heading, subHeading, subheading2 }) => {
     return (
         <div className='w-full h-[87vh] flex items-end justify-evenly  bp-968:flex-col bp-968:items-center bp-968:mt-[170px] bp-968:h-fit  '>
-            <div className=' flex flex-col justify-center items-start pb-[250px] w-[500px] bp-968:pb-[100px] bp-552:px-3 bp-552:w-full bp-552:pl-8  '>
-                <p className='  font-bold  text-lg text-[#00A0AA] mb-4'>Welcome To Medpro Health Care</p>
-                <h1 className=' text-[#081E29]   text-6xl font-bold leading-[67px] mb-[60px] bp-1298:text-4xl bp-1298:mb-[30px] bp-968:text-6xl bp-552:text-4xl '>The Hospital That Cares For Life And Humanity</h1>
+            <div className=' flex flex-col justify-center  items-start pb-[150px] w-[500px] bp-968:pb-[100px] bp-552:px-3 bp-552:w-full bp-552:pl-8  '>
+                <p className='  font-bold  text-lg text-[#00A0AA] mb-4'>{heading}</p>
+                <h1 className=' text-[#081E29]   text-6xl font-bold leading-[67px] mb-[60px] bp-1298:text-4xl bp-1298:mb-[30px] bp-968:text-6xl bp-552:text-4xl '>{subHeading}</h1>
                 <div>
-                    <Button>Discover More</Button>
+                    <p className=' pb-10  text-sm  font-medium'>{subheading2}</p>
+                    <Button>{buttonText}</Button>
 
                 </div>
 

@@ -2,7 +2,7 @@ import React from 'react';
 import Contactform from './contactform';
 const Contactus = () => {
     return (
-        <div className=' w-full h-fit py-20 px-5 flex items-center justify-center gap-40 bp-1024:gap-0 bp-1024:justify-between  bp-898:flex-col'>
+        <div className=' w-full h-fit py-20 px-5 flex bg-[#D4FFFC] items-center justify-center gap-40 bp-1024:gap-0 bp-1024:justify-between  bp-898:flex-col'>
             <div className='pr-2'>
                 <h1 className=' text-lg  font-semibold text-[#00A0AA] mb-10'>Appointment</h1>
                 <h1 className=' text-4xl font-bold text-[#081E29] mb-5'>Get in touch to book <br />

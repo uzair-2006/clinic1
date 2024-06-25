@@ -15,14 +15,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="bg-[#F0FFFE]">
         <Headerstrip />
-
-
         <Navbar />
-
         {children}
         <Contactus />
         <Footer />
-
       </body>
     </html>
   );
