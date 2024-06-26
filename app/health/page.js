@@ -29,7 +29,7 @@ const Page = () => {
                     {
                         data.map((data) => {
                             return (
-                                <Reasoncard imgSrc={data.imgSrc} heading={data.heading} subheading={data.subhaeding} />
+                               <Reasoncard imgSrc={data.imgSrc} heading={data.heading} subheading={data.subhaeding} />
                             )
                         })
                     }

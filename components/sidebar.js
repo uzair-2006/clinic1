@@ -9,6 +9,7 @@ const Sidebar = () => {
         { name: "Home", href: "/" },
         { name: "About", href: "/about" },
         { name: "Health Checkups", href: "/health" },
+        { name: "Doctors", href: "/doctors" },
         { name: "Departments", href: "/departments" },
     ]
     const pathname = usePathname()

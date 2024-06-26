@@ -14,7 +14,7 @@ const ReasonsTochoose = () => {
         <div className=' bg-[#D4FFFC] w-full h-fit pb-20'>
             <h1 className=' px-3 pt-20 font-bold text-3xl text-center'>Top reasons to choose</h1>
             <p className=' text-sm font-medium text-center mt-3' l>They live in Bookmarksgrove right at the coast</p>
-            <div className=' w-full h-fit flex items-center flex-wrap justify-around mt-10'>
+            <div className=' w-full h-fit flex items-center flex-wrap justify-center gap-10 mt-10'>
                 {
                     data.map((data) => {
                         return (
